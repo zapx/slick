@@ -6,7 +6,7 @@
     "properties": {
         "name": {
             "type": "string",
-            "prompt": "Enter your project name?"
+            "x-prompt": "Enter your name project name?"
         }
     },
     "required": [],

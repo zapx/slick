@@ -1,6 +1,6 @@
 {
 	"name": "@zapx/slick",
-	"version": "0.0.0",
+	"version": "1.0.1",
 	"scripts": {
 		"build:cli": "tsc -p tsconfig.cli.json",
 		"build:lib": "ng build zapx-slick && npm run build:cli && ts-node copy",
