@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "id": "@zapx/slick",
+    "title": "A slick library of Angular",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "prompt": "Enter your project name?"
+        }
+    },
+    "required": [],
+    "additionalProperties": true
+}

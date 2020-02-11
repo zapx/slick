@@ -1,0 +1,13 @@
+{
+  "name": "@zapx/slick",
+  "version": "0.0.9-rc4",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "devDependencies": {
+    "@angular-devkit/core": "^9.0.1",
+    "@angular-devkit/schematics": "^9.0.1"
+  },
+  "schematics": "./cli/collection.json"
+}
