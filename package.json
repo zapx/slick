@@ -1,10 +1,12 @@
 {
-	"name": "slick",
+	"name": "@zapx/slick",
 	"version": "0.0.0",
 	"scripts": {
 		"build:cli": "tsc -p tsconfig.cli.json",
 		"build:lib": "ng build zapx-slick && npm run build:cli && ts-node copy",
-		"format": "prettier \"**/*.ts\" --ignore-path ./.prettierignore --write"
+		"format": "prettier \"**/*.ts\" --ignore-path ./.prettierignore --write",
+		"publish": "npm run build:lib && npm run lerna",
+		"lerna": "lerna publish from-git --yes"
 	},
 	"private": true,
 	"dependencies": {
@@ -40,6 +42,7 @@
 		"karma-coverage-istanbul-reporter": "~2.0.1",
 		"karma-jasmine": "~2.0.1",
 		"karma-jasmine-html-reporter": "^1.4.0",
+		"lerna": "^3.20.2",
 		"ng-packagr": "^5.4.0",
 		"prettier": "^1.19.1",
 		"protractor": "~5.4.0",

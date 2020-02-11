@@ -1,27 +1,51 @@
-# Slick
+# @zapx/slick
+Support angular 6+, slick v1.8.1
+## Install
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+```sh
+  ng add @zapx/slick
+  ```
+All config will be auto imports in file `angular.json` and `package.json`
+## Example
+`app.component.html`
+```html
+<zapx-slick [options]="options">
+  <div>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg">
+  </div>
+  <div>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg">
+  </div>
+  <div>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg">
+  </div>
+</zapx-slick>
+```
+`app.component.ts`
+```typescript
+import { SlickOptions } from '@zapx/slick';
+...
+...
+export class AppComponent implements OnInit{
+  title = 'zapx-slick-test';
+  options: SlickOptions = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    centerMode: true,
+    variableWidth: true,
+    autoplay: true,
+  };
+  ngOnInit() {
+  }
+}
+```
 
-## Development server
+## Features
+* Auto imports scripts and styles in `angular.json`.
+* Auto install dependencies (`jquery`, `slick-carousel`).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Comming soon
+* Add all event of slick.
+* Working in new version and old verson.
