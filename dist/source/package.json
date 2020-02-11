@@ -1,0 +1,26 @@
+{
+  "name": "@zapx/slick",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "devDependencies": {
+    "@angular-devkit/core": "^9.0.1",
+    "@angular-devkit/schematics": "^9.0.1"
+  },
+  "schematics": "./cli/collection.json",
+  "main": "bundles/zapx-slick.umd.js",
+  "module": "fesm5/zapx-slick.js",
+  "es2015": "fesm2015/zapx-slick.js",
+  "esm5": "esm5/zapx-slick.js",
+  "esm2015": "esm2015/zapx-slick.js",
+  "fesm5": "fesm5/zapx-slick.js",
+  "fesm2015": "fesm2015/zapx-slick.js",
+  "typings": "zapx-slick.d.ts",
+  "metadata": "zapx-slick.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
