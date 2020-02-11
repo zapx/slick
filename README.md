@@ -49,3 +49,4 @@ export class AppComponent implements OnInit{
 ## Comming soon
 * Add all event of slick.
 * Working in new version and old verson.
+* Add UT testing.
