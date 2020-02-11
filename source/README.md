@@ -11,13 +11,19 @@ All config will be auto imports in file `angular.json` and `package.json`
 ```html
 <zapx-slick [options]="options">
   <div>
-    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg">
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" width="100%">
   </div>
   <div>
-    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg">
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" width="100%">
   </div>
   <div>
-    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg">
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" width="100%">
+  </div>
+  <div>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" width="100%">
+  </div>
+  <div>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" width="100%">
   </div>
 </zapx-slick>
 ```
