@@ -5,17 +5,16 @@ declare var $: any;
 @Component({
   selector: 'zapx-slick',
   templateUrl: 'zapx-slick.component.html',
-  styles: []
+  styles: [],
 })
 export class ZapxSlickComponent implements OnInit {
-
   @Input() options: SlickOptions = {
     slidesToShow: 2,
     slidesToScroll: 2,
   };
   @ViewChild('zapxSlick', { static: true }) zapxSlick: ElementRef;
   @ViewChild('zapxSlickItem', { static: true }) zapxSlickItem: ElementRef;
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
     $(this.zapxSlick.nativeElement).slick(this.options);

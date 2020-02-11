@@ -19,7 +19,7 @@
       "sourceMap": true,
       "strictNullChecks": true,
       "target": "es6",
-      "outDir": "dist/slick/cli/ng-add",
+      "outDir": "dist/source/cli/ng-add",
       "types": [
         "jasmine",
         "node"
@@ -27,9 +27,9 @@
       "watch": false
     },
     "include": [
-      "projects/slick/src/cli"
+      "source/src/cli"
     ],
     "exclude": [
-      "src/*/files/**/*"
+      "source/*/files/**/*"
     ]
   }

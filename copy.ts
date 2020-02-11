@@ -1,11 +1,14 @@
 const fs = require('fs');
 
-const dirRoot = 'projects/slick/src/cli';
+const dirRoot = 'source/src/cli';
 
-const dirBuild = 'dist/slick/cli';
+const dirBuild = 'dist/source/cli';
 
-const dirOfSchema = 'projects/slick/src/cli/ng-add/';
+const dirOfSchema = 'source/src/cli/ng-add/';
 
 fs.copyFileSync(dirRoot + '/collection.json', dirBuild + '/collection.json');
 
-fs.copyFileSync(dirRoot + '/ng-add/schema.json', dirBuild + '/ng-add/schema.json');
+fs.copyFileSync(
+  dirRoot + '/ng-add/schema.json',
+  dirBuild + '/ng-add/schema.json',
+);

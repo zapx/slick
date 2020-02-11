@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/slick",
+  "dest": "../dist/source",
   "lib": {
     "entryFile": "src/public-api.ts"
   }

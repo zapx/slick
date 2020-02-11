@@ -4,7 +4,6 @@
  *
  */
 export const latestVersions = {
-    Jquery: '~3.3.1',
-    slickCarousel: '~1.8.1',
+  Jquery: '~3.3.1',
+  slickCarousel: '~1.8.1',
 };
-

@@ -8,9 +8,8 @@ describe('ZapxSlickComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ZapxSlickComponent ]
-    })
-    .compileComponents();
+      declarations: [ZapxSlickComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
